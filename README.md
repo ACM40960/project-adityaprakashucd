@@ -1,22 +1,17 @@
 # Enhancing Art Classification: A Comparative Study of CNN, Transfer Learning, and SVM Models
 
-<p align="center">
-  <img src="CNN_Plot_image.jpg" alt="CNN Architecture" width="300">
-  <br>
-  <em>CNN Architecture</em>
-</p>
-
 ## Table of Contents
 - [Overview](#overview)
+- [Dataset Information](#dataset-information)
 - [Technology and Language](#technology-and-language)
 - [Installation Instructions](#installation-instructions)
 - [Usage Examples](#usage-examples)
-- [Visuals](#visuals)
+- [Architecture and Models](#architecture-and-models)
 - [Contact Information](#contact-information)
 
 ## Overview
 
-This project aims to enhance the classification of art images through a comparative study of Convolutional Neural Networks (CNNs), Transfer Learning, and Support Vector Machine (SVM) models. The project explores different machine learning techniques and their effectiveness in classifying various art styles and genres.
+This project aims to enhance the classification of art images through a comparative study of Convolutional Neural Networks (CNNs), Transfer Learning with ResNet50, and Support Vector Machine (SVM) models. The project explores different machine learning techniques and their effectiveness in classifying various art styles and genres, with a focus on understanding the unique characteristics of each approach.
 
 ## Dataset Information
 
@@ -87,13 +82,25 @@ Open the provided Jupyter Notebook (`Code_Jupyter.ipynb`) to explore the full im
 - **Evaluation**: Analyzing model performance.
 - **Visualization**: Visualizing data and model predictions.
 
-## Visuals
+## Architecture and Models
+
+### Convolutional Neural Networks (CNN)
 
 <p align="center">
   <img src="CNN_Plot_image.jpg" alt="CNN Architecture" width="500">
   <br>
-  <em>CNN Architecture</em>
+  <em>Architecture of the Convolutional Neural Network used in the project</em>
 </p>
+
+The CNN model employed in this project is built with multiple convolutional layers followed by pooling layers, fully connected layers, and a softmax activation function. It is designed to automatically and adaptively learn spatial hierarchies of features from the input images.
+
+### Transfer Learning with ResNet50
+
+The project also explores transfer learning using the ResNet50 architecture. ResNet50 is a deep residual network that has 50 layers, including convolutional and fully connected layers. By leveraging pre-trained weights from the ImageNet dataset, the ResNet50 model is fine-tuned to adapt to the specific art classification task.
+
+### Support Vector Machine (SVM)
+
+The SVM model used in this study utilizes different kernel functions and hyperparameter tuning to classify the artworks based on extracted features. It serves as a comparison to understand the advantages and potential limitations of deep learning models for art classification.
 
 ## Contact Information
 
