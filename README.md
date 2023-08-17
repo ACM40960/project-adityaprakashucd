@@ -1,8 +1,25 @@
+Certainly! I've made some enhancements to the README to make it more visually appealing and relevant to your project. I've also added the contact information for the authors.
+
+```markdown
 # Enhancing Art Classification: A Comparative Study of CNN, Transfer Learning, and SVM Models
 
-## Basic Overview
+<p align="center">
+  <img src="CNN_Plot_image.jpg" alt="CNN Architecture" width="300">
+  <br>
+  <em>CNN Architecture</em>
+</p>
 
-This project aims to enhance the classification of art images through a comparative study of Convolutional Neural Networks (CNNs), Transfer Learning, and Support Vector Machine (SVM) models. By leveraging the power of deep learning and machine learning techniques, the project provides insights into the effectiveness of different models in classifying various art styles and genres.
+## Table of Contents
+- [Overview](#overview)
+- [Technology and Language](#technology-and-language)
+- [Installation Instructions](#installation-instructions)
+- [Usage Examples](#usage-examples)
+- [Visuals](#visuals)
+- [Contact Information](#contact-information)
+
+## Overview
+
+This project aims to enhance the classification of art images through a comparative study of Convolutional Neural Networks (CNNs), Transfer Learning, and Support Vector Machine (SVM) models. The project explores different machine learning techniques and their effectiveness in classifying various art styles and genres.
 
 ## Technology and Language
 
@@ -13,31 +30,26 @@ This project aims to enhance the classification of art images through a comparat
 ## Installation Instructions
 
 1. **Python**: Ensure that Python (version 3.6 or higher) is installed on your system.
-2. **Required Libraries**: Install the required libraries by running the following commands:
+2. **Required Libraries**: Install the required libraries with the following command:
 
-   \`\`\`bash
+   ```bash
    pip install numpy pandas seaborn matplotlib opencv-python-headless pillow scikit-image scikit-learn torchvision torch
-   \`\`\`
+   ```
 
-3. **Jupyter Notebook**: To run the provided Jupyter Notebook, install Jupyter:
+3. **Jupyter Notebook**: To run the provided Jupyter Notebook, install and start Jupyter:
 
-   \`\`\`bash
+   ```bash
    pip install jupyter
-   \`\`\`
-
-   Start the Jupyter Notebook with:
-
-   \`\`\`bash
    jupyter notebook
-   \`\`\`
+   ```
 
 ## Usage Examples
 
-Open the provided Jupyter Notebook (\`Code_Jupyter.ipynb\`) to explore the full implementation, including data preprocessing, model training, evaluation, and visualization.
+Open the provided Jupyter Notebook (`Code_Jupyter.ipynb`) to explore the full implementation, including:
 
 - **Data Preprocessing**: Extracting features, scaling, and splitting data.
 - **Model Training**: Training CNN, SVM, and Transfer Learning models.
-- **Evaluation**: Analyzing model performance using confusion matrices, accuracy scores, etc.
+- **Evaluation**: Analyzing model performance.
 - **Visualization**: Visualizing data and model predictions.
 
 ## Visuals
@@ -48,23 +60,18 @@ Open the provided Jupyter Notebook (\`Code_Jupyter.ipynb\`) to explore the full 
   <em>CNN Architecture</em>
 </p>
 
-## Contribution Guidelines
-
-Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) for instructions on how to submit pull requests and report issues.
-
-## License Information
-
-This project is licensed under the [MIT License](LICENSE.md).
-
 ## Contact Information
 
-For inquiries, please contact [your-email@example.com](mailto:your-email@example.com).
+For inquiries or collaboration, please contact the authors:
 
-## Acknowledgments
+- **Aditya Prakash**: [aditya.prakash@ucdconnect.ie](mailto:aditya.prakash@ucdconnect.ie)
+- **Shreya Grover**: [shreya.grover@ucdconnect.ie](mailto:shreya.grover@ucdconnect.ie)
 
-Special thanks to collaborators, mentors, and third-party libraries that made this project possible.
+---
 
-## FAQ or Troubleshooting
-
-- **Q**: Common question here?
-- **A**: Solution or answer here.
+<p align="center">
+  <em>Enhancing Art Classification: A Comparative Study of CNN, Transfer Learning, and SVM Models</em>
+  <br>
+  <em>© 2023 Aditya Prakash and Shreya Grover</em>
+</p>
+```
