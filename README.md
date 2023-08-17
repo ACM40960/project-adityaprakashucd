@@ -14,10 +14,10 @@
 This project aims to enhance the classification of art images through a comparative study of Convolutional Neural Networks (CNNs), Transfer Learning with ResNet50, and Support Vector Machine (SVM) models. The project explores different machine learning techniques and their effectiveness in classifying various art styles and genres, with a focus on understanding the unique characteristics of each approach.
 
 <p align="center">
-  <img src="Images/75309.jpg" alt="Work by Van Gogh" height="150">
-  <img src="Images/64331.jpg" alt="Work by Matisse" height="150">
-  <img src="Images/40524.jpg" alt="Work by Toyokuni" height="150">
-  <img src="Images/32996.jpg" alt="Work by Aivazovsky" height="150">
+  <img src="Images/75309.jpg" alt="Work by Van Gogh" height="250">
+  <img src="Images/64331.jpg" alt="Work by Matisse" height="250">
+  <img src="Images/40524.jpg" alt="Work by Toyokuni" height="250">
+  <img src="Images/32996.jpg" alt="Work by Aivazovsky" height="250">
   <br>
   <em><span style="color:green">Some of the paintings used in the dataset. Works by Van Gogh, Matisse, Toyokuni, and Aivazovsky.</span></em>
 </p>
