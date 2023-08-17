@@ -1,6 +1,3 @@
-Certainly! I've made some enhancements to the README to make it more visually appealing and relevant to your project. I've also added the contact information for the authors.
-
-```markdown
 # Enhancing Art Classification: A Comparative Study of CNN, Transfer Learning, and SVM Models
 
 <p align="center">
@@ -74,4 +71,3 @@ For inquiries or collaboration, please contact the authors:
   <br>
   <em>© 2023 Aditya Prakash and Shreya Grover</em>
 </p>
-```
