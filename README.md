@@ -136,6 +136,28 @@ For more detailed information about the ResNet50 architecture, refer to the [off
 
 The SVM model used in this study utilizes different kernel functions and hyperparameter tuning to classify the artworks based on extracted features. It serves as a comparison to understand the advantages and potential limitations of deep learning models for art classification.
 
+## Contributing 🤝
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your-username/your-repo-name/issues) to see if there's something you'd like to work on. Here's how you can get started:
+
+1. **Fork the Project**: Click the 'Fork' button at the top right of this page to create your own copy of this repository.
+
+2. **Clone Your Fork**: Clone your fork to your local machine using `git clone https://github.com/your-username/your-repo-name.git`.
+
+3. **Create a New Branch**: Create a new branch for your feature or fix using `git checkout -b feature/YourFeatureName`.
+
+4. **Make Your Changes**: Make and commit your changes with descriptive commit messages.
+
+5. **Push to Your Fork**: Push your changes to your fork on GitHub using `git push origin feature/YourFeatureName`.
+
+6. **Open a Pull Request**: Go to the 'Pull requests' tab on the original repository and click the 'New pull request' button. Select your fork and the branch you created, then click 'Create pull request'.
+
+7. **Wait for Review**: We will review your pull request and provide feedback. Please be patient and address any comments or requested changes.
+
+If you have any questions or need help, feel free to reach out to us or open an issue.
+
+Thanks for contributing!
+
 ## Contact Information 📧
 
 For inquiries or collaboration, please contact the authors:
