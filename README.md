@@ -98,7 +98,7 @@ Please adhere to the terms and utilize the images only for the purposes of data 
 
 ## Usage Examples
 
-Open the provided Jupyter Notebook (`Code_Jupyter.ipynb`) to explore the full implementation, including:
+Open the provided Jupyter Notebook [`Code_Jupyter.ipynb`](Code_Jupyter.ipynb) to explore the full implementation, including:
 
 - **Data Preprocessing**: Extracting features, scaling, and splitting data.
 - **Model Training**: Training CNN, SVM, and Transfer Learning models.
