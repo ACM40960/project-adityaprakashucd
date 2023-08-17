@@ -43,7 +43,7 @@ Open the provided Jupyter Notebook (\`Code_Jupyter.ipynb\`) to explore the full 
 ## Visuals
 
 <p align="center">
-  <img src="CNN_Plot_image.jpg.png" alt="CNN Architecture" width="500">
+  <img src="CNN_Plot_image.jpg" alt="CNN Architecture" width="500">
   <br>
   <em>CNN Architecture</em>
 </p>
