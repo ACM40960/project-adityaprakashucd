@@ -13,6 +13,16 @@
 
 This project aims to enhance the classification of art images through a comparative study of Convolutional Neural Networks (CNNs), Transfer Learning with ResNet50, and Support Vector Machine (SVM) models. The project explores different machine learning techniques and their effectiveness in classifying various art styles and genres, with a focus on understanding the unique characteristics of each approach.
 
+<p align="center">
+  <img src="Images/75309.jpg" alt="Work by Van Gogh" height="150">
+  <img src="Images/64331.jpg" alt="Work by Matisse" height="150">
+  <img src="Images/40524.jpg" alt="Work by Toyokuni" height="150">
+  <img src="Images/32996.jpg" alt="Work by Aivazovsky" height="150">
+  <br>
+  <em><span style="color:green">Some of the paintings used in the dataset. Works by Van Gogh, Matisse, Toyokuni, and Aivazovsky.</span></em>
+</p>
+
+
 ## Dataset Information
 
 The project utilizes a dataset of paintings available on [Kaggle](https://www.kaggle.com/competitions/painter-by-numbers/data), originally sourced from [WikiArt](https://www.wikiart.org). The dataset comprises images from 2319 different artists and 43 unique painting genres.
@@ -46,7 +56,7 @@ The filtered dataset includes the following 12 artists, representing a variety o
 Please adhere to the terms and utilize the images only for the purposes of data mining, which constitutes a form of fair use.
 
 <p align="center">
-  <img src="paintings_distribution.png" alt="Data Distribution of Paintings" width="500">
+  <img src="Images/paintings_distribution.png" alt="Data Distribution of Paintings" width="1000">
   <br>
   <em>Distribution of the Number of Paintings per Artist</em>
 </p>
@@ -87,7 +97,7 @@ Open the provided Jupyter Notebook (`Code_Jupyter.ipynb`) to explore the full im
 ### Convolutional Neural Networks (CNN)
 
 <p align="center">
-  <img src="CNN_Plot_image.jpg" alt="CNN Architecture" width="500">
+  <img src="Images/CNN_Plot_image.jpg" alt="CNN Architecture" width="1000">
   <br>
   <em>Architecture of the Convolutional Neural Network used in the project</em>
 </p>
