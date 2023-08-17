@@ -46,7 +46,7 @@ The filtered dataset includes the following 12 artists, representing a variety o
 Please adhere to the terms and utilize the images only for the purposes of data mining, which constitutes a form of fair use.
 
 <p align="center">
-  <img src="data_distribution_histogram.jpg" alt="Data Distribution" width="500">
+  <img src="paintings_distribution.png" alt="Data Distribution of Paintings" width="500">
   <br>
   <em>Distribution of the Number of Paintings per Artist</em>
 </p>
