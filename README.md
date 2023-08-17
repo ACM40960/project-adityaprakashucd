@@ -1,6 +1,6 @@
 # Enhancing Art Classification: A Comparative Study of CNN, Transfer Learning, and SVM Models
 
-## Table of Contents
+## Table of Contents 📑
 - [Overview](#overview)
 - [Dataset Information](#dataset-information)
 - [Technology and Language](#technology-and-language)
@@ -10,7 +10,7 @@
 - [Architecture and Models](#architecture-and-models)
 - [Contact Information](#contact-information)
 
-## Overview
+## Overview 🎯
 
 This project aims to enhance the classification of art images through a comparative study of Convolutional Neural Networks (CNNs), Transfer Learning with ResNet50, and Support Vector Machine (SVM) models. The project explores different machine learning techniques and their effectiveness in classifying various art styles and genres, with a focus on understanding the unique characteristics of each approach.
 
@@ -24,7 +24,7 @@ This project aims to enhance the classification of art images through a comparat
 </p>
 
 
-## Dataset Information
+## Dataset Information 📊
 
 The project utilizes a dataset of paintings available on [Kaggle](https://www.kaggle.com/competitions/painter-by-numbers/data), originally sourced from [WikiArt](https://www.wikiart.org). The dataset comprises images from 2319 different artists and 43 unique painting genres.
 
@@ -62,13 +62,22 @@ Please adhere to the terms and utilize the images only for the purposes of data 
   <em>Distribution of the Number of Paintings per Artist</em>
 </p>
 
-## Technology and Language
+## Technology and Language 💻
 
 - **Programming Language**: Python
-- **Libraries**: NumPy, Pandas, Seaborn, Matplotlib, OpenCV, scikit-image, scikit-learn, Torch, torchvision
-- **Platforms**: Jupyter Notebook
+- **Libraries**: 
+  - NumPy 🧮
+  - Pandas 🐼
+  - Seaborn 📊
+  - Matplotlib 📉
+  - OpenCV 📷
+  - scikit-image 🖼️
+  - scikit-learn 🤖
+  - Torch 🔥
+  - torchvision 🎞️
+- **Platforms**: Jupyter Notebook 📘
 
-## Installation Instructions
+## Installation Instructions 📥
 
 1. **Python**: Ensure that Python (version 3.6 or higher) is installed on your system.
 2. **Required Libraries**: Install the required libraries with the following command:
@@ -84,7 +93,7 @@ Please adhere to the terms and utilize the images only for the purposes of data 
    jupyter notebook
    ```
 
-## System Requirements
+## System Requirements 💽
 
 ### CPU Requirements
 
@@ -96,7 +105,7 @@ Please adhere to the terms and utilize the images only for the purposes of data 
 - **GPU**: NVIDIA GeForce GTX 1050 or equivalent (Minimum), NVIDIA GeForce GTX 1060 or higher (Recommended)
 - **Memory**: 4GB VRAM (Minimum), 6GB VRAM or higher (Recommended)
 
-## Usage Examples
+## Usage Examples 🚀
 
 Open the provided Jupyter Notebook [`Code_Jupyter.ipynb`](Code_Jupyter.ipynb) to explore the full implementation, including:
 
@@ -105,7 +114,7 @@ Open the provided Jupyter Notebook [`Code_Jupyter.ipynb`](Code_Jupyter.ipynb) to
 - **Evaluation**: Analyzing model performance.
 - **Visualization**: Visualizing data and model predictions.
 
-## Architecture and Models
+## Architecture and Models 🏗️
 
 ### Convolutional Neural Networks (CNN)
 
@@ -127,7 +136,7 @@ For more detailed information about the ResNet50 architecture, refer to the [off
 
 The SVM model used in this study utilizes different kernel functions and hyperparameter tuning to classify the artworks based on extracted features. It serves as a comparison to understand the advantages and potential limitations of deep learning models for art classification.
 
-## Contact Information
+## Contact Information 📧
 
 For inquiries or collaboration, please contact the authors:
 
