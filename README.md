@@ -138,7 +138,7 @@ The SVM model used in this study utilizes different kernel functions and hyperpa
 
 ## Contributing 🤝
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your-username/your-repo-name/issues) to see if there's something you'd like to work on. Here's how you can get started:
+Contributions, issues, and feature requests are welcome! Here's how you can get started:
 
 1. **Fork the Project**: Click the 'Fork' button at the top right of this page to create your own copy of this repository.
 
