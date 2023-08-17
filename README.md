@@ -18,6 +18,44 @@
 
 This project aims to enhance the classification of art images through a comparative study of Convolutional Neural Networks (CNNs), Transfer Learning, and Support Vector Machine (SVM) models. The project explores different machine learning techniques and their effectiveness in classifying various art styles and genres.
 
+## Dataset Information
+
+The project utilizes a dataset of paintings available on [Kaggle](https://www.kaggle.com/competitions/painter-by-numbers/data), originally sourced from [WikiArt](https://www.wikiart.org). The dataset comprises images from 2319 different artists and 43 unique painting genres.
+
+### File Descriptions
+
+- **train.zip**: Zip file containing the images in the training set (.jpg)
+- **test.zip**: Zip file containing the images in the test set (.jpg)
+- **train_info.csv**: File listing image filename, artistID, genre, style, date, and title for images in the training set.
+- **all_data_info.csv**: File containing additional information such as dimensions, size in bytes, artist group, etc.
+
+### Filtering and Thresholding
+
+The project focuses on a subset of artists, applying a threshold of 500 paintings to include an artist in the dataset. This approach ensures balanced classes, manageable model complexity, and quality representation of the artists' styles.
+
+The filtered dataset includes the following 12 artists, representing a variety of 30 unique painting genres:
+
+- Ivan Aivazovsky
+- Gustave Dore
+- Rembrandt
+- Pierre-Auguste Renoir
+- Albrecht Durer
+- Ivan Shishkin
+- Giovanni Battista Piranesi
+- John Singer Sargent
+- Zdislav Beksinski
+- Ilya Repin
+- Pablo Picasso
+- Marc Chagall
+
+Please adhere to the terms and utilize the images only for the purposes of data mining, which constitutes a form of fair use.
+
+<p align="center">
+  <img src="data_distribution_histogram.jpg" alt="Data Distribution" width="500">
+  <br>
+  <em>Distribution of the Number of Paintings per Artist</em>
+</p>
+
 ## Technology and Language
 
 - **Programming Language**: Python
