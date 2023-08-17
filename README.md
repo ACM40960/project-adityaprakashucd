@@ -5,6 +5,7 @@
 - [Dataset Information](#dataset-information)
 - [Technology and Language](#technology-and-language)
 - [Installation Instructions](#installation-instructions)
+- [System Requirements](#system-requirements)
 - [Usage Examples](#usage-examples)
 - [Architecture and Models](#architecture-and-models)
 - [Contact Information](#contact-information)
@@ -83,6 +84,18 @@ Please adhere to the terms and utilize the images only for the purposes of data 
    jupyter notebook
    ```
 
+## System Requirements
+
+### CPU Requirements
+
+- **Processor**: Intel i5 or equivalent (Minimum), Intel i7 or equivalent (Recommended)
+- **Memory**: 8GB RAM (Minimum), 16GB RAM (Recommended)
+
+### GPU Requirements (Optional but Recommended for Faster Computation)
+
+- **GPU**: NVIDIA GeForce GTX 1050 or equivalent (Minimum), NVIDIA GeForce GTX 1060 or higher (Recommended)
+- **Memory**: 4GB VRAM (Minimum), 6GB VRAM or higher (Recommended)
+
 ## Usage Examples
 
 Open the provided Jupyter Notebook (`Code_Jupyter.ipynb`) to explore the full implementation, including:
@@ -106,7 +119,9 @@ The CNN model employed in this project is built with multiple convolutional laye
 
 ### Transfer Learning with ResNet50
 
-The project also explores transfer learning using the ResNet50 architecture. ResNet50 is a deep residual network that has 50 layers, including convolutional and fully connected layers. By leveraging pre-trained weights from the ImageNet dataset, the ResNet50 model is fine-tuned to adapt to the specific art classification task.
+The project also explores transfer learning using the [ResNet50](https://pytorch.org/vision/main/models/generated/torchvision.models.resnet50.html) architecture. ResNet50 is a deep residual network that has 50 layers, including convolutional and fully connected layers. By leveraging pre-trained weights from the ImageNet dataset, the ResNet50 model is fine-tuned to adapt to the specific art classification task.
+
+For more detailed information about the ResNet50 architecture, refer to the [official PyTorch documentation](https://pytorch.org/vision/main/models/generated/torchvision.models.resnet50.html).
 
 ### Support Vector Machine (SVM)
 
