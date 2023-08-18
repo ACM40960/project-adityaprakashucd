@@ -7,7 +7,7 @@
 - [Installation Instructions](#installation-instructions-)
 - [System Requirements](#system-requirements-)
 - [Usage Examples](#usage-examples-)
-- [Architecture and Models](#architecture-and-models-)
+- [Architecture and Models](#architecture-and-models)
 - [Contributing](#contributing-)
 - [Contact Information](#contact-information-)
 
