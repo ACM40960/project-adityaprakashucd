@@ -37,22 +37,6 @@ The project utilizes a dataset of paintings available on [Kaggle](https://www.ka
 - **train_info.csv**: File listing image filename, artistID, genre, style, date, and title for images in the training set.
 - **all_data_info.csv**: File containing additional information such as dimensions, size in bytes, artist group, etc.
 
-### How to Download and Use the Dataset 📥
-
-1. **Visit the Dataset Page**: Go to the [Kaggle dataset page](https://www.kaggle.com/competitions/painter-by-numbers/data).
-2. **Download the Files**: Click on the "Download" button (you may need to sign in or create a Kaggle account).
-3. **Save the ZIP Files**: Save the downloaded ZIP files (train.zip and test.zip) to your desired directory. The code provided in the project will handle the ZIP archives directly, so there's no need to extract them manually.
-
-### Part A: Basic Explorations & Data Loading 🧐
-
-In the initial part of the code, you'll need to set the path to the directory where you saved the ZIP files. This will allow you to load the `all_data_info.csv` file and perform initial data exploration. Example-
-
-```python
-path = '/Users/adityaprakash/Downloads/PaintersDataset/'  # Set this to the directory where you saved train.zip, test.zip, and all_data_info.csv
-df_info = pd.read_csv(path+'all_data_info.csv')
-df_info.head()
-```
-
 ### Filtering and Thresholding
 
 The project focuses on a subset of artists, applying a threshold of 500 paintings to include an artist in the dataset. This approach ensures balanced classes, manageable model complexity, and quality representation of the artists' styles.
@@ -110,6 +94,22 @@ Please adhere to the terms and utilize the images only for the purposes of data 
    pip install jupyter
    jupyter notebook
    ```
+
+### How to Download and Use the Dataset 📥
+
+1. **Visit the Dataset Page**: Go to the [Kaggle dataset page](https://www.kaggle.com/competitions/painter-by-numbers/data).
+2. **Download the Files**: Click on the "Download" button (you may need to sign in or create a Kaggle account).
+3. **Save the ZIP Files**: Save the downloaded ZIP files (train.zip and test.zip) to your desired directory. The code provided in the project will handle the ZIP archives directly, so there's no need to extract them manually.
+
+### Part A: Basic Explorations & Data Loading 🧐
+
+In the initial part of the code, you'll need to set the path to the directory where you saved the ZIP files. This will allow you to load the `all_data_info.csv` file and perform initial data exploration. Example-
+
+```python
+path = '/Users/adityaprakash/Downloads/PaintersDataset/'  # Set this to the directory where you saved train.zip, test.zip, and all_data_info.csv
+df_info = pd.read_csv(path+'all_data_info.csv')
+df_info.head()
+```
 
 ## System Requirements 💽
 
