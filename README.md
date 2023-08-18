@@ -1,14 +1,15 @@
 # Enhancing Art Classification: A Comparative Study of CNN, Transfer Learning, and SVM Models
 
 ## Table of Contents 📑
-- [Overview](#overview)
-- [Dataset Information](#dataset-information)
-- [Technology and Language](#technology-and-language)
-- [Installation Instructions](#installation-instructions)
-- [System Requirements](#system-requirements)
-- [Usage Examples](#usage-examples)
-- [Architecture and Models](#architecture-and-models)
-- [Contact Information](#contact-information)
+- [Overview](#overview-)
+- [Dataset Information](#dataset-information-)
+- [Technology and Language](#technology-and-language-)
+- [Installation Instructions](#installation-instructions-)
+- [System Requirements](#system-requirements-)
+- [Usage Examples](#usage-examples-)
+- [Architecture and Models](#architecture-and-models-)
+- [Contributing](#contributing-)
+- [Contact Information](#contact-information-)
 
 ## Overview 🎯
 
